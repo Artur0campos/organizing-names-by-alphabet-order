@@ -1,0 +1,10 @@
+lista_de_nomes = []
+while True:
+    nome = str(input('nome do aluno:')).title()
+    if nome == 'Sair':
+        break
+    lista_de_nomes.append(nome)
+
+sorted(lista_de_nomes)
+for nome in lista_de_nomes:
+    print(nome)
